@@ -14,7 +14,7 @@ It can useful for:
 To install Attempt, just run the following command.
 
 ```bash
-composer require divineomega/attempt
+composer require jord-jd/attempt
 ```
 
 ## Usage
@@ -53,4 +53,3 @@ attempt(function() {
 
 Most of these methods can be chained and used together as you might expect to give 
 the desired functionality.
-

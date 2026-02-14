@@ -1,5 +1,5 @@
 {
-    "name": "divineomega/attempt",
+    "name": "jord-jd/attempt",
     "description": "Attempt to run a function, retrying if needed",
     "type": "library",
     "license": "LGPL-3.0-only",
@@ -19,5 +19,13 @@
         "files": [
             "src/attempt_function.php"
         ]
+    },
+    "replace": {
+        "divineomega/attempt": "self.version"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0-dev"
+        }
     }
 }
