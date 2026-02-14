@@ -1,16 +1,16 @@
 <?php
 
-namespace DivineOmega\Attempt;
+namespace JordJD\Attempt;
 
 use DateTime;
 use DateTimeInterface;
-use DivineOmega\Attempt\Exceptions\DateTimeExceeded;
-use DivineOmega\Attempt\Exceptions\MaxAttemptsExceeded;
+use JordJD\Attempt\Exceptions\DateTimeExceeded;
+use JordJD\Attempt\Exceptions\MaxAttemptsExceeded;
 use Exception;
 
 /**
  * Class AttemptHandler
- * @package DivineOmega\Attempt
+ * @package JordJD\Attempt
  */
 class AttemptHandler
 {

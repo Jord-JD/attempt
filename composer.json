@@ -1,31 +1,32 @@
 {
-    "name": "jord-jd/attempt",
-    "description": "Attempt to run a function, retrying if needed",
-    "type": "library",
-    "license": "LGPL-3.0-only",
-    "authors": [
-        {
-            "name": "Jordan Hall",
-            "email": "jordan@hall05.co.uk"
-        }
-    ],
-    "require": {
-        "php": ">=7.1"
-    },
-    "autoload": {
-        "psr-4": {
-            "DivineOmega\\Attempt\\": "src/"
-        },
-        "files": [
-            "src/attempt_function.php"
-        ]
-    },
-    "replace": {
-        "divineomega/attempt": "self.version"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.0-dev"
-        }
+  "name": "jord-jd/attempt",
+  "description": "Attempt to run a function, retrying if needed",
+  "type": "library",
+  "license": "LGPL-3.0-only",
+  "authors": [
+    {
+      "name": "Jordan Hall",
+      "email": "jordan@hall05.co.uk"
     }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "JordJD\\Attempt\\": "src/"
+    },
+    "files": [
+      "src/attempt_function.php"
+    ]
+  },
+  "replace": {
+    "divineomega/attempt": "self.version"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "3.0-dev"
+    }
+  },
+  "require-dev": {}
 }

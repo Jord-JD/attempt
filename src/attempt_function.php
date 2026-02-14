@@ -1,6 +1,6 @@
 <?php
 
-use DivineOmega\Attempt\AttemptHandler;
+use JordJD\Attempt\AttemptHandler;
 
 if (!function_exists('attempt')) {
 
